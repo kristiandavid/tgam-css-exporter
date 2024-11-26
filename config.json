@@ -113,7 +113,7 @@
     {
         "key": "baseIndexFilePath",
         "type": "string",
-        "default": "./",
+        "default": "./output",
         "title": "Base Index File Path",
         "description": "Index file will be written to this directory (relative to export root set by the exporter / pipeline configuration / VSCode extension)"
     },
