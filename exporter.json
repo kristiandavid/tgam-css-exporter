@@ -1,17 +1,14 @@
 {
-    "id": "supernovaio.exporter-css",
-    "name": "CSS w/ theme support",
-    "description": "Export your design system tokens into CSS variables and definitions.",
-    "author": "Jiri Trecak",
-    "organization": "Supernova.io",
-    "homepage": "https://supernova.io",
-    "version": "0.2.0",
-    "usesBrands": true,
-    "usesThemes": true,
-    "executable": "/dist/build.js",
-    "engine": "latest",
-    "tags": [
-        "CSS",
-        "Tokens"
-    ]
+  "id": "tgam.exporter-css",
+  "name": "TGAM CSS",
+  "description": "Export your design system tokens into CSS variables and definitions.",
+  "author": "Jiri Trecak",
+  "organization": "the Globe and Mail",
+  "homepage": "https://www.theglobeandmail.com",
+  "version": "0.3.0",
+  "usesBrands": true,
+  "usesThemes": true,
+  "executable": "/dist/build.js",
+  "engine": "latest",
+  "tags": ["CSS", "Tokens"]
 }

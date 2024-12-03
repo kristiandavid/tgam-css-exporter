@@ -1,0 +1,173 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint",
+      "import",
+      "jest",
+      "jsdoc",
+      "json",
+      "jsx-a11y",
+      "react-hooks",
+      "react"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:import/recommended",
+      "plugin:jest/recommended",
+      "plugin:jsdoc/recommended",
+      "plugin:json/recommended",
+      "plugin:jsx-a11y/recommended",
+      "plugin:react/recommended",
+      "plugin:storybook/recommended"
+    ],
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true,
+        "impliedStrict": true,
+        "experimentalObjectRestSpread": true,
+        "jsx": true
+      }
+    },
+    "settings": {
+      "react": {
+        "pragma": "React",
+        "version": "detect"
+      },
+      "import/resolver": {
+        "alias": {
+          "map": [["~", "./"]],
+          "extensions": [".jsx", ".js", ".tsx", ".ts", ".json", ".scss", ".css"]
+        }
+      },
+      "jsdoc": {
+        "preferredTypes": {
+          "array": "Array",
+          "boolean": "Boolean",
+          "enum": "Enum",
+          "error": "Error",
+          "function": "Function",
+          "glob": "Glob",
+          "null": "null",
+          "number": "Number",
+          "object": "Object",
+          "promise": "Promise",
+          "set": "Set",
+          "string": "String"
+        }
+      }
+    },
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "jest/globals": true
+    },
+    "globals": {
+      "Buffer": true,
+      "Fusion": true
+    },
+    "rules": {
+      "strict": ["error", "never"],
+      "import/namespace": 0,
+      "import/no-unresolved": [2, { "ignore": ["fusion:*"] }],
+      "import/no-self-import": 2,
+      "import/no-cycle": 2,
+      "import/order": [
+        "warn",
+        {
+          "groups": [
+            "builtin",
+            "external",
+            "internal",
+            "parent",
+            "sibling",
+            "index",
+            "object",
+            "type"
+          ],
+          "pathGroups": [
+            {
+              "pattern": "~/**",
+              "group": "internal"
+            },
+            {
+              "pattern": "./*.scss",
+              "group": "index",
+              "position": "after"
+            }
+          ],
+          "alphabetize": {
+            "order": "asc",
+            "caseInsensitive": true
+          },
+          "warnOnUnassignedImports": true
+        }
+      ],
+      "react/prop-types": 1,
+      "react/display-name": [1, { "ignoreTranspilerName": true }],
+      "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+      "react/no-unknown-property": [
+        1,
+        { "ignore": ["amp", "amp-custom", "amp-boilerplate", "custom-element"] }
+      ],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": [
+        "warn",
+        {
+          "additionalHooks": "(useEffectOnce|useCallbackOnce|useEffectDebug|useCallbackDebug|useMemoDebug)"
+        }
+      ],
+      "no-console": [
+        1,
+        {
+          "allow": ["warn", "error"]
+        }
+      ],
+      "@typescript-eslint/ban-ts-comment": 0,
+      "@typescript-eslint/no-var-requires": 0,
+      "@typescript-eslint/no-explicit-any": 0,
+      "jsx-a11y/no-noninteractive-tabindex": 0,
+      "jsdoc/no-defaults": 0,
+      "jsdoc/require-jsdoc": 0,
+      "jsdoc/require-param-description": 0,
+      "jsdoc/require-property-description": 0,
+      "jsdoc/require-property": 0,
+      "jsdoc/require-returns-description": 0,
+      "jsdoc/no-undefined-types": 0,
+      "jest/no-disabled-tests": 0
+    },
+    "overrides": [
+      {
+        "files": [
+          "app-phone.js",
+          "app-tablet-deluxe.js",
+          "app-tablet.js",
+          "app.js",
+          "json.js",
+          "text.js",
+          "xml.js"
+        ],
+        "rules": {
+          "react/prop-types": 0,
+          "react/display-name": 0
+        }
+      },
+      {
+        "files": ["*.ts", "*.tsx"],
+        "extends": ["plugin:jsdoc/recommended-typescript"],
+        "rules": {
+          "jsdoc/no-defaults": 0,
+          "jsdoc/require-jsdoc": 0,
+          "jsdoc/require-param-description": 0,
+          "jsdoc/require-returns-description": 0,
+          "jsdoc/require-returns": 0
+        }
+      }
+    ]
+  }
+  
