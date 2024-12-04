@@ -1,9 +1,5 @@
 /* This file was auto-generated and should not be changed manually */
 :root {
-  --string-font-family-pratt: "Pratt";
-  --string-font-weight-bold: "Bold";
-  --string-font-family-g-msans: "GMsans Web";
-  --string-font-weight-regular: "Regular";
   --string-helvetica-helb-1: "40/48";
   --string-helvetica-helb-2: "32/40";
   --string-helvetica-helb-3: "24/32";
@@ -47,10 +43,10 @@
   --string-gm-sans-gml-1: "18/18";
   --string-gm-sans-gml-2: "16/16";
   --string-gm-sans-gml-3: "14/14";
-  --string-grey-100: "1px solid rgba(242, 242, 242, 1)";
-  --string-grey-200: "1px solid rgba(229, 229, 229, 1)";
-  --string-grey-300: "1px solid rgba(204, 204, 204, 1)";
-  --string-grey-400: "1px solid rgba(160, 160, 160, 1)";
+  --string-border-100: "1px solid rgba(242, 242, 242, 1)";
+  --string-border-200: "1px solid rgba(229, 229, 229, 1)";
+  --string-border-300: "1px solid rgba(204, 204, 204, 1)";
+  --string-border-400: "1px solid rgba(160, 160, 160, 1)";
   --string-radius-2: "2px";
   --string-radius-4: "4px";
   --string-space-2: "2px";
