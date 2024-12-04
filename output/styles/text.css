@@ -1,48 +1,46 @@
 /* This file was auto-generated and should not be changed manually */
-:root {
-  --text-pratt-bold-pb-1: 700 88px/96px "Pratt";
-  --text-pratt-bold-pb-2: 700 48px/56px "Pratt";
-  --text-pratt-bold-pb-3: 700 40px/46px "Pratt";
-  --text-pratt-bold-pb-4: 700 36px/42px "Pratt";
-  --text-pratt-bold-pb-5: 700 32px/38px "Pratt";
-  --text-pratt-bold-pb-6: 700 24px/30px "Pratt";
-  --text-pratt-bold-pb-7: 700 22px/28px "Pratt";
-  --text-pratt-bold-pb-8: 700 18px/24px "Pratt";
-  --text-pratt-bold-pb-9: 700 16px/22px "Pratt";
-  --text-pratt-regular-pr-1: 400 48px/56px "Pratt";
-  --text-pratt-regular-pr-2: 400 40px/48px "Pratt";
-  --text-pratt-regular-pr-3: 400 32px/40px "Pratt";
-  --text-pratt-regular-pr-4: 400 24px/30px "Pratt";
-  --text-pratt-regular-pr-5: 400 20px/28px "Pratt";
-  --text-pratt-regular-pr-6: 400 20px/26px "Pratt";
-  --text-pratt-regular-pr-7: 400 18px/24px "Pratt";
-  --text-pratt-regular-pr-8: 400 16px/22px "Pratt";
-  --text-gm-sans-web-bold-gmb-1: 700 32px/40px "GMsans Web";
-  --text-gm-sans-web-bold-gmb-2: 700 28px/36px "GMsans Web";
-  --text-gm-sans-web-bold-gmb-3: 700 24px/30px "GMsans Web";
-  --text-gm-sans-web-bold-gmb-4: 700 20px/28px "GMsans Web";
-  --text-gm-sans-web-bold-gmb-5: 700 18px/24px "GMsans Web";
-  --text-gm-sans-web-regular-gmr-1: 400 24px/32px "GMsans Web";
-  --text-gm-sans-web-regular-gmr-2: 400 20px/28px "GMsans Web";
-  --text-gm-sans-web-regular-gmr-3: 400 18px/24px "GMsans Web";
-  --text-gm-sans-web-regular-gmr-4: 400 16px/24px "GMsans Web";
-  --text-gm-sans-web-regular-gmr-5: 400 14px/14px "GMsans Web";
-  --text-gm-sans-web-label-gml-1: 400 18px/18px "GMsans Web";
-  --text-gm-sans-web-label-gml-2: 400 16px/16px "GMsans Web";
-  --text-gm-sans-web-label-gml-3: 400 14px/14px "GMsans Web";
-  --text-helvetica-bold-helb-1: 700 40px/48px "Helvetica";
-  --text-helvetica-bold-helb-2: 700 32px/40px "Helvetica";
-  --text-helvetica-bold-helb-3: 700 24px/32px "Helvetica";
-  --text-helvetica-bold-helb-4: 700 20px/28px "Helvetica";
-  --text-helvetica-bold-helb-5: 700 18px/24px "Helvetica";
-  --text-helvetica-bold-helb-6: 700 16px/24px "Helvetica";
-  --text-helvetica-regular-helr-1: 400 24px/30px "Helvetica";
-  --text-helvetica-regular-helr-2: 400 18px/24px "Helvetica";
-  --text-helvetica-regular-helr-3: 400 16px/22px "Helvetica";
-  --text-helvetica-regular-helr-4: 400 14px/14px "Helvetica";
-  --text-pratt-bold-pb-text: 700 20px/30px "Pratt";
-  --text-pratt-bold-pbi: 400 20px/30px "Pratt";
-  --text-pratt-regular-pi-5: 400 20px/30px "Pratt";
-  --text-gm-sans-web-regular-gmr-6: 400 14px/20px "GMsans Web";
-  --text-gm-sans-web-bold-gmb-6: 400 16px/20px "GMsans Web";
-}
+.text-pb-1 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 5.5rem; font-style: normal; font-weight: normal; line-height: 1.09; }
+.text-pb-2 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 3rem; font-style: normal; font-weight: normal; line-height: 1.17; }
+.text-pb-3 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 2.5rem; font-style: normal; font-weight: normal; line-height: 1.15; }
+.text-pb-4 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 2.25rem; font-style: normal; font-weight: normal; line-height: 1.17; }
+.text-pb-5 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 2rem; font-style: normal; font-weight: normal; line-height: 1.19; }
+.text-pb-6 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.5rem; font-style: normal; font-weight: normal; line-height: 1.25; }
+.text-pb-7 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.375rem; font-style: normal; font-weight: normal; line-height: 1.27; }
+.text-pb-8 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.125rem; font-style: normal; font-weight: normal; line-height: 1.33; }
+.text-pb-9 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1rem; font-style: normal; font-weight: normal; line-height: 1.38; }
+.text-pr-1 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 3rem; font-style: normal; font-weight: normal; line-height: 1.17; }
+.text-pr-2 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 2.5rem; font-style: normal; font-weight: normal; line-height: 1.2; }
+.text-pr-3 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 2rem; font-style: normal; font-weight: normal; line-height: 1.25; }
+.text-pr-4 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.5rem; font-style: normal; font-weight: normal; line-height: 1.25; }
+.text-pr-5 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.25rem; font-style: normal; font-weight: normal; line-height: 1.4; }
+.text-pr-6 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.25rem; font-style: normal; font-weight: normal; line-height: 1.3; }
+.text-pr-7 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.125rem; font-style: normal; font-weight: normal; line-height: 1.33; }
+.text-pr-8 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1rem; font-style: normal; font-weight: normal; line-height: 1.38; }
+.text-gmb-1 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 2rem; font-style: normal; font-weight: normal; line-height: 1.25; }
+.text-gmb-2 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1.75rem; font-style: normal; font-weight: normal; line-height: 1.29; }
+.text-gmb-3 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1.5rem; font-style: normal; font-weight: normal; line-height: 1.25; }
+.text-gmb-4 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1.25rem; font-style: normal; font-weight: normal; line-height: 1.4; }
+.text-gmb-5 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1.125rem; font-style: normal; font-weight: normal; line-height: 1.33; }
+.text-gmr-1 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1.5rem; font-style: normal; font-weight: normal; line-height: 1.33; }
+.text-gmr-2 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1.25rem; font-style: normal; font-weight: normal; line-height: 1.4; }
+.text-gmr-3 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1.125rem; font-style: normal; font-weight: normal; line-height: 1.33; }
+.text-gmr-4 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1rem; font-style: normal; font-weight: normal; line-height: 1.5; }
+.text-gmr-5 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 0.875rem; font-style: normal; font-weight: normal; line-height: 1; }
+.text-gml-1 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1.125rem; font-style: normal; font-weight: normal; line-height: 1; }
+.text-gml-2 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1rem; font-style: normal; font-weight: normal; line-height: 1; }
+.text-gml-3 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 0.875rem; font-style: normal; font-weight: normal; line-height: 1; }
+.text-helb-1 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 2.5rem; font-style: normal; font-weight: normal; line-height: 1.2; }
+.text-helb-2 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 2rem; font-style: normal; font-weight: normal; line-height: 1.25; }
+.text-helb-3 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 1.5rem; font-style: normal; font-weight: normal; line-height: 1.33; }
+.text-helb-4 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 1.25rem; font-style: normal; font-weight: normal; line-height: 1.4; }
+.text-helb-5 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 1.125rem; font-style: normal; font-weight: normal; line-height: 1.33; letter-spacing: 0.2000000029802322px;}
+.text-helb-6 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 1rem; font-style: normal; font-weight: normal; line-height: 1.5; }
+.text-helr-1 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 1.5rem; font-style: normal; font-weight: normal; line-height: 1.25; }
+.text-helr-2 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 1.125rem; font-style: normal; font-weight: normal; line-height: 1.33; }
+.text-helr-3 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 1rem; font-style: normal; font-weight: normal; line-height: 1.38; }
+.text-helr-4 {font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 0.875rem; font-style: normal; font-weight: normal; line-height: 1; }
+.text-pb-text {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.25rem; font-style: normal; font-weight: normal; line-height: 1.5; letter-spacing: 0.2000000029802322px;}
+.text-pbi {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.25rem; font-style: normal; font-weight: normal; line-height: 1.5; letter-spacing: 0.2000000029802322px;}
+.text-pi-5 {font-family: Pratt, Georgia, Palatino, Book Antiqua, Times New Roman, serif; font-size: 1.25rem; font-style: normal; font-weight: normal; line-height: 1.5; letter-spacing: 0.2000000029802322px;}
+.text-gmr-6 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 0.875rem; font-style: normal; font-weight: normal; line-height: 1.43; }
+.text-gmb-6 {font-family: GMsans Web, Helvetica, Arial, Verdana, sans-serif; font-size: 1rem; font-style: normal; font-weight: normal; line-height: 1.25; }
