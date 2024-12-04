@@ -5,7 +5,7 @@
   "author": "Jiri Trecak",
   "organization": "the Globe and Mail",
   "homepage": "https://www.theglobeandmail.com",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "usesBrands": true,
   "usesThemes": true,
   "executable": "/dist/build.js",
